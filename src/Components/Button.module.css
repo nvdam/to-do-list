@@ -1,0 +1,30 @@
+.button{
+    width: 200px;
+    height: 55px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.div{
+    text-align: right;  
+    position: sticky;
+    top: 9px; 
+}
+.button:hover 
+{
+        width: 16rem;
+        height: 3.5rem;
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-family: 'Times New Roman', Times, serif;
+}
+button:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  

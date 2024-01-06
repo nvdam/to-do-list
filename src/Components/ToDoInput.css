@@ -1,0 +1,175 @@
+.centering
+{
+    text-align: center;
+    background-color: #454545;
+    width: inherit;
+    border-radius: 10px;   
+}
+
+.inputbox
+{
+    width: 20rem;
+    height: 2rem;
+    font-size: x-large;
+    letter-spacing: 1px;
+    font-family: times new roman;
+    font-weight:lighter;
+    background-color: rgb(224, 211, 211);
+    color: black;
+    border-radius: 10px;
+    outline-color: rgb(121, 88, 88);
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 10px;
+}
+.invalid {
+    background-color: #FF7276;
+    color: black;
+}
+.inputbox::placeholder{
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+label{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    
+  
+}
+.datepicker
+{
+    width: 20rem;
+    height: 2rem;
+    color: black;
+    background-color: rgb(224, 211, 211);
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    outline-color: rgb(121, 88, 88);
+    font-size:x-large;
+
+
+}
+.submissionbox
+{   
+    background-color: green;
+    color: white;
+    height: 35px;
+    width: auto;
+    position: absolute;
+    right: 3%;
+    bottom: 22%;
+    border-radius: 10px;
+    border-color: white;
+
+   
+}
+.submissionbox:active{
+    cursor:wait;
+}
+
+label
+{
+    font-size: 20px;
+    position: relative;
+}
+.task-content
+{
+    /* Nothing in this field */
+    background-color: rgb(101, 101, 102);
+    border-radius: 20px;
+
+}
+
+ .task-content:hover {
+   background-color:black;
+    color: white;
+    border: 10px;
+  }
+body{
+    background-color: antiquewhite;
+}
+h2{
+    color: green;
+    font-size: 32px;
+    overflow-wrap:break-word;
+    background-color: skyblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px 10px;
+}
+
+.todolist-view{
+    position: relative;
+    left: 10px;
+    color: red;
+
+}
+.display_todo
+{
+    width: 100%;
+    font-size: inherit;
+   
+
+}
+
+.place-buttons
+{
+    display: inline;
+    position: relative;
+    left: 69%;
+    
+    /* can use opacity less and create full on hovering on task content*/ 
+
+}
+
+.cancel-button
+{
+    color: white;
+    background-color: rgb(187, 40, 40);
+    text-align: center;
+    border-color: white;
+    transition: 0.25s;
+}
+.cancel-button:hover
+{
+    transform: scale(1.2);
+    background-color: white;
+    color: red;
+    border-color: red;
+
+}
+.edit-button
+{
+    background-color: green;
+    color: white;
+    border-color: white;
+    transition: 0.25s;
+    
+}
+.edit-button:hover
+{
+    transform: scale(1.2);
+    background-color: white;
+    border-color: green;
+    color: green;
+
+}
+.h1{
+    color: white;
+    text-decoration: underline;
+    font-size: x-large;
+   
+}
+.invalid-header{
+    text-shadow: 3px 2px 2px red;
+}
+.error-message{
+    color: rgb(230, 33, 33);
+    font-size: large;
+    letter-spacing: 1px;
+}
